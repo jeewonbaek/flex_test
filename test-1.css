@@ -1,0 +1,19 @@
+/* .box {
+  float: left;
+}
+
+.clear-element {
+  clear: both; 
+}
+  /* or left */
+
+  .clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+  }
+
+  .box {
+    float: left;
+  }
+  
